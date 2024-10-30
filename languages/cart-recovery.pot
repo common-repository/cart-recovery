@@ -1,0 +1,435 @@
+# Copyright (c) 2020 Ademti Software Ltd.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart recovery for WordPress 3.1.0\n"
+"Report-Msgid-Bugs-To: https://wp-cart-recovery.com/support-request/\n"
+"POT-Creation-Date: 2023-03-13 10:51:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \"WP Cart Recovery Support\" "
+"<support@wp-cart-recovery.com>\n"
+"Language-Team: \"WP Cart Recovery Support\" <support@wp-cart-recovery.com>\n"
+"Poedit: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: classes/Campaigns/SimpleCampaign.php:20
+#: classes/Campaigns/SimpleCampaign.php:36
+msgid "Simple campaign"
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:65
+msgid "Email subject line"
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:72
+msgid "Email content"
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:79
+msgid "Email tags"
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:194 classes/Cart.php:351
+msgid "Cart marked as unrecovered."
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:219
+msgid "Simple campaign NOT sent. Blocked by filter."
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:241
+msgid "Simple campaign sent."
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:248
+msgid "Simple campaign send attempted, but could not be sent."
+msgstr ""
+
+#: classes/Campaigns/SimpleCampaign.php:264
+msgid "Simple campaign attempted 3 or more times. Will not attempt again."
+msgstr ""
+
+#: classes/Cart.php:144
+msgid ""
+"Congratulations, we've confirmed that we can track completed purchases. Now "
+"that's sorted, you're free to enable your campaigns whenever you're ready."
+msgstr ""
+
+#: classes/Cart.php:146
+msgid "Enable campaigns now"
+msgstr ""
+
+#: classes/Cart.php:150
+msgid "Your campaign is almost ready to go"
+msgstr ""
+
+#: classes/Cart.php:196
+msgid "Cart entered recovery process."
+msgstr ""
+
+#: classes/Cart.php:340
+msgid "User unsubscribed from emails."
+msgstr ""
+
+#: classes/Cart.php:376
+msgid "Email removed"
+msgstr ""
+
+#: classes/Cart.php:377
+msgid "Name removed"
+msgstr ""
+
+#: classes/Cart.php:387
+msgid "Cart data anonymised"
+msgstr ""
+
+#: classes/Cart.php:399
+msgid "Cart anonymised. Recovery stopped."
+msgstr ""
+
+#: classes/Cart.php:439
+msgid "Cart details captured."
+msgstr ""
+
+#: classes/CartTemplate.php:44
+msgid "A tabular cart showing each of the items in the customer's cart"
+msgstr ""
+
+#: classes/CartTemplate.php:52
+msgid ""
+"A URL that will take the customer back to the checkout with their cart "
+"populated"
+msgstr ""
+
+#: classes/CartTemplate.php:60
+msgid "A clickable button linking back to the customer's cart"
+msgstr ""
+
+#: classes/CartTemplate.php:65
+msgid "The customer's last name if available. Blank if not."
+msgstr ""
+
+#: classes/CartTemplate.php:72
+#. translators: %s is the fallback term used in place of the customer's name.
+msgid "The customer's first name if available. '%s' if not"
+msgstr ""
+
+#: classes/CartTemplate.php:79
+msgid "The name of the store"
+msgstr ""
+
+#: classes/CartTemplate.php:84
+msgid "The email address of the store"
+msgstr ""
+
+#: classes/CartTemplate.php:89
+msgid "A URL where the customer can unsubscribe from the campaign"
+msgstr ""
+
+#: classes/CartTemplate.php:97
+msgid "The subject line of the email"
+msgstr ""
+
+#: classes/Engines/AbstractEngine.php:163
+#: classes/Engines/AbstractEngine.php:185
+msgid "Cart completed."
+msgstr ""
+
+#: classes/Engines/AbstractEngine.php:204
+msgid "User clicked back to their cart."
+msgstr ""
+
+#: classes/Engines/AbstractEngine.php:347
+msgid "User emptied cart, recovery abandoned."
+msgstr ""
+
+#: classes/Engines/Woocommerce.php:52 classes/Engines/Woocommerce.php:60
+#: classes/GdprExporter.php:25
+msgid "Cart Recovery for WordPress"
+msgstr ""
+
+#: classes/Engines/Woocommerce.php:68 classes/Settings.php:264
+msgid "Tracking options"
+msgstr ""
+
+#: classes/Engines/Woocommerce.php:76
+msgid "Campaign settings"
+msgstr ""
+
+#: classes/Engines/Woocommerce.php:84
+msgid "Cart list"
+msgstr ""
+
+#: classes/GdprEraser.php:25 classes/GdprExporter.php:121
+msgid "Abandoned cart recovery"
+msgstr ""
+
+#: classes/GdprExporter.php:72
+msgid "Cart first captured"
+msgstr ""
+
+#: classes/GdprExporter.php:76
+msgid "Cart last updated"
+msgstr ""
+
+#: classes/GdprExporter.php:81
+msgid "First Name"
+msgstr ""
+
+#: classes/GdprExporter.php:85
+msgid "Surname"
+msgstr ""
+
+#: classes/GdprExporter.php:89
+msgid "Status"
+msgstr ""
+
+#: classes/GdprExporter.php:109
+#. translators: %1$d is a quantity, %2$s is the item name.
+msgid "%1$d x %2$s"
+msgstr ""
+
+#: classes/GdprExporter.php:114
+msgid "Cart item"
+msgstr ""
+
+#: classes/Main.php:56
+msgid "Every 5 minutes"
+msgstr ""
+
+#: classes/Main.php:170
+msgid ""
+"Cart Recovery processing is scheduled, but it does not look like it is "
+"running. Please check your WordPress scheduling system (cron) is working "
+"correctly and is not disabled."
+msgstr ""
+
+#: classes/RecoveredCartNotificationEmails.php:67
+#. Translators: %s is a formatted financial amount.
+msgid "%s successfully recovered"
+msgstr ""
+
+#: classes/Settings.php:103 classes/Settings.php:104
+msgid "Cart recovery"
+msgstr ""
+
+#: classes/Settings.php:131
+msgid "Help"
+msgstr ""
+
+#: classes/Settings.php:260
+msgid "Recovery status"
+msgstr ""
+
+#: classes/SettingsForm.php:40
+msgid "Send campaigns"
+msgstr ""
+
+#: classes/SettingsForm.php:47
+msgid "Email \"From\" name"
+msgstr ""
+
+#: classes/SettingsForm.php:54
+msgid "Email \"From\" address"
+msgstr ""
+
+#: classes/SettingsForm.php:61
+msgid "Anonymise old cart records"
+msgstr ""
+
+#: classes/SettingsForm.php:108
+msgid "Never"
+msgstr ""
+
+#: classes/SettingsForm.php:109
+msgid "After 5 days"
+msgstr ""
+
+#: classes/SettingsForm.php:110
+msgid "After 7 days"
+msgstr ""
+
+#: classes/SettingsForm.php:111
+msgid "After 14 days"
+msgstr ""
+
+#: classes/SettingsForm.php:112
+msgid "After 28 days"
+msgstr ""
+
+#: classes/SettingsForm.php:127
+msgid ""
+"<p>On this page you can choose to enable abandoned cart tracking, or "
+"not.</p><p><strong>Note:</strong> - if you disable tracking, then no "
+"further emails will be sent - even for carts already in the recovery "
+"process.</p><p>The available tracking is based on email entry during "
+"checkout. When a customer enters their email during checkout then it is "
+"stored, together with details of the customer's baseket contents. If the "
+"customer doesn't successfully complete an order then they will enter the "
+"recovery process.</p>"
+msgstr ""
+
+#: classes/SettingsForm.php:134
+msgid ""
+"<p>On this page you can enter the email details that you want to send to "
+"customers who don't complete their order. You can specify the From name, "
+"and email address, the subject line, and the email content."
+msgstr ""
+
+#: classes/StatusPage.php:92
+#. translators: %s is the date that processing last executed.
+msgid "Cart recovery processing last ran at %s"
+msgstr ""
+
+#: classes/StatusPage.php:139
+#. translators: %s is the date when the 90 day period runs from.
+msgid "Recovered since %s"
+msgstr ""
+
+#: classes/StatusPage.php:144
+msgid "Recovered - last 90 days"
+msgstr ""
+
+#: classes/StatusPage.php:229 classes/StatusPage.php:237
+#: templates/admin-status-page.php:9
+msgid "Pending"
+msgstr ""
+
+#: classes/StatusPage.php:230 classes/StatusPage.php:238
+msgid "Recovery"
+msgstr ""
+
+#: classes/StatusPage.php:231 classes/StatusPage.php:239
+#: templates/admin-status-page.php:12
+msgid "Recovered"
+msgstr ""
+
+#: classes/StatusPage.php:232 classes/StatusPage.php:240
+msgid "Unrecovered"
+msgstr ""
+
+#: classes/StatusPage.php:233 classes/StatusPage.php:241
+msgid "Completed normally"
+msgstr ""
+
+#: templates/admin-email-tag-list.php:1
+msgid ""
+"The list below shows all of the tags that can be used in your email "
+"campaign."
+msgstr ""
+
+#: templates/admin-enablement-notice.php:4
+msgid ""
+"You can't enable campaigns until we're sure that cart completion tracking "
+"is working. This is a safety measure to ensure that you don't send recovery "
+"campaigns to users that have successfully completed their orders. Once your "
+"store has received a completed order, the checkbox will unlock. In the "
+"meantime you're free to set up your campaign."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Cart recovery for WordPress"
+msgstr ""
+
+#: templates/admin-intro-email.php:2
+msgid ""
+"Use this page to set up your recovery email campaign. Your campaign will be "
+"sent 30 minutes after carts are abandoned."
+msgstr ""
+
+#: templates/admin-intro-main.php:2
+msgid ""
+"Use this to enable, or disable abandonment tracking, sending of recovery "
+"emails, and set your email sender details."
+msgstr ""
+
+#: templates/admin-recovered-cart-notification-email.php:1
+msgid "Congratulations, a cart has been successfully recovered!"
+msgstr ""
+
+#: templates/admin-recovered-cart-notification-email.php:4
+msgid ""
+"A cart was converted into an order, with a total order value of "
+"<strong>{value}</strong>."
+msgstr ""
+
+#: templates/admin-recovered-cart-notification-email.php:7
+msgid ""
+"The original cart details are below, check your order notifications for "
+"full details of the resulting order."
+msgstr ""
+
+#: templates/admin-status-page-recovery-blocks.php:2
+msgid "Recovered - last 30 days"
+msgstr ""
+
+#: templates/admin-status-page.php:9
+msgid "Customers on your site with items in their cart"
+msgstr ""
+
+#: templates/admin-status-page.php:10
+msgid "In recovery"
+msgstr ""
+
+#: templates/admin-status-page.php:10
+msgid ""
+"Customers that have abandoned their purchase and are being sent recovery "
+"emails"
+msgstr ""
+
+#: templates/admin-status-page.php:11
+msgid "Abandoned"
+msgstr ""
+
+#: templates/admin-status-page.php:11
+msgid "Customers that entered recovery but didn't go on to complete a purchase"
+msgstr ""
+
+#: templates/admin-status-page.php:12
+msgid "Customers that entered recovery and were persuaded to complete a purchase"
+msgstr ""
+
+#: templates/email-cart-button.php:1
+msgid "Finish your order now"
+msgstr ""
+
+#: templates/frontend-unsubscribe-message.php:3
+msgid "You have been unsubscribed."
+msgstr ""
+
+#: templates/frontend-unsubscribe-message.php:5
+msgid "OK"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp-cart-recovery.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An easy-to-use plugin that allows you to capture abandoned, and failed "
+"orders, and follow up."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ademti Software"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wp-cart-recovery.com/"
+msgstr ""
+
+#: classes/CartTemplate.php:73 classes/CartTemplate.php:174
+msgctxt "Used as a first name if none is available."
+msgid "friend"
+msgstr ""
+
+#: classes/Engines/Woocommerce.php:262
+msgctxt "Represents a zero-value cart"
+msgid "-"
+msgstr ""

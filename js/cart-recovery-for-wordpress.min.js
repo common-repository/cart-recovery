@@ -1,0 +1,1 @@
+function crfw_record_checkout(r,a,e,t){data={email:r,first_name:a,surname:e,action:"crfw_record_cart"},void 0!==t&&(data.extra_info=t),jQuery.post({url:crfw_settings.ajax_url,data:data,xhrFields:{withCredentials:!0}})}jQuery(document).ready(function(){0<jQuery("[data-remodal-id=crfw-unsubscribe]").length&&jQuery("[data-remodal-id=crfw-unsubscribe]").remodal().open()});
